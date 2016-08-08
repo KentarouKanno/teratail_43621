@@ -15,6 +15,10 @@ class ViewController1: UIViewController {
 
     }
 
+    @IBAction func closeButton(sender: UIBarButtonItem) {
+        dismissViewControllerAnimated(true, completion: nil)
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         
